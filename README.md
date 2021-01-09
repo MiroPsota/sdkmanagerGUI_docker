@@ -8,7 +8,7 @@ Run docker without sudo (be aware of the risks):
 https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user
 
 ### Download NVIDIA SDK Manager
-Download the package of NVIDIA SDK Manager from <https://developer.nvidia.com/nvidia-sdk-manager>.  
+Download the package of NVIDIA SDK Manager from <https://developer.nvidia.com/nvidia-sdk-manager> 
 and put it in `sdk_manager_gui` folder with name `sdkmanager.deb`.
 Tested with version `1.4.0-7363`.
 
