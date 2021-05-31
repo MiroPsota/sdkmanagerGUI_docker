@@ -5,11 +5,15 @@ RUN apt-get update && apt-get install --no-install-recommends -y \
         build-essential \
         curl \
         chromium-browser \
+        dnsutils \
         git \
         gpg \
         gpg-agent \
         gpgconf \
         gpgv \
+        iproute2 \
+        iptables \
+        lbzip2 \
         less \
         libcanberra-gtk-module \
         libcanberra-gtk3-module \
@@ -22,9 +26,15 @@ RUN apt-get update && apt-get install --no-install-recommends -y \
         lsb-release \
         locales \
         net-tools \
+        netcat \
+        network-manager \
+        openssh-client \
+        pigz \
+        policykit-1 \
         python \
         sshpass \
         sudo \
+        usbutils \
         qemu-user-static \
     && rm -rf /var/lib/apt/lists/*
 
