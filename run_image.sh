@@ -18,6 +18,7 @@ run_image () {
     -e DISPLAY \
     --mount type=bind,source=/tmp/.X11-unix,target=/tmp/.X11-unix \
     --mount type=bind,source=/usr/share/icons,target=/usr/share/icons,readonly \
+    --mount type=bind,source=/var/run/dbus,target=/var/run/dbus \
     -e LANG=C.UTF-8 \
       $image_name $run_command
 }
